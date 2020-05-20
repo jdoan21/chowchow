@@ -37,7 +37,7 @@ def get_recipe_embeds():
 	    while(True):
 		    line = f.readline()
 		    if(not line):
-			   break
+			    break
 		    rec_id = line.split(' ')[0]
 		    print(rec_id)
 		    final_rec_embeds.append(rec_embeds[np.where(rec_ids==rec_id)])
